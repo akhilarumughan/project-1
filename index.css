@@ -1,0 +1,331 @@
+.nav-link {
+    color: rgb(230, 227, 227);
+}
+.btn-group{
+    margin-left: 80px;
+}
+#section2{
+  background-image: url(ceramic.jpg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top:100px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  .inner-box h1,
+  .inner-box p {
+    font-size: 120px;
+    opacity: 100%;
+    color: rgb(216, 216, 51) ; 
+    text-shadow: 2px 2px 2px ;
+    opacity: 400px;
+  }
+  .inner-box p {
+    font-size: 50px;
+    font-family: Lucida Console;
+    color: rgb(245, 245, 245);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  }
+  .custom-width {
+    width: 400px; 
+}
+/* services */
+#section3{
+  padding-top: 100px;
+}
+.inner-box1{
+  min-height: 270px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: baseline;
+  margin-bottom: 15px;
+}
+#section4{
+  
+  background-color: rgb(41, 35, 35);
+  margin-top: 100px;
+}
+
+
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-item {
+  display: inline-block; /* Displays list items horizontally */
+  margin-right: 20px; /* Adds a gap between items */
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none; /* Removes the default underline from links */
+  color: #e5e3e3; /* Set the text color */
+}
+
+.nav-item:last-child {
+  margin-right: 0; /* No gap after the last item */
+}
+.text-success{
+  background-color: rgb(247, 244, 244);
+  transform: translateY(-30px);
+  display: inline-block;
+  padding: 0px 16px;
+  font-family: popins;
+  font-size: 20px;
+}
+.text-danger{
+  background-color: rgb(247, 244, 244);
+  transform: translateY(-30px);
+  display: inline-block;
+  padding: 0px 16px;
+  font-family: popins;
+  font-size: 20px;
+}
+.text-info{
+  background-color: rgb(247, 244, 244);
+  transform: translateY(-30px);
+  display: inline-block;
+  padding: 0px 16px;
+  font-family: popins;
+  font-size: 20px;
+}
+.text-muted{
+  background-color: rgb(247, 244, 244);
+  transform: translateY(-30px);
+  display: inline-block;
+  padding: 0px 16px;
+  font-family: popins;
+  font-size: 20px;
+}
+.performance img {
+  max-width: 100%;
+  height: auto;
+}
+.performance{
+  text-align: center;
+  min-height: 270px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.supportline{
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.customerline{
+  color: white;
+  margin-left: 20px;
+  text-align: justify;
+}
+ .customers img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 100px;
+
+ }
+ .ratingline{
+  color: white;
+  margin-left: 130px;
+  margin-top: 5px;
+ }
+.review img{
+  max-width: 100%;
+  height: auto;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+#hours {
+  background-image: url('mechanic.jpg'); /* Replace with your background image path */
+ 
+  min-height: 550px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+ 
+}
+/* Circular Progress Styles */
+.progress-circle {
+  --size: 120px; /* Circle size */
+  --progress: 75; /* Default progress percentage */
+  --color: #28a745; /* Green progress color */
+  --track-color: #e9ecef; /* Background track color */
+  --thickness: 15px; /* Thickness of the circular progress */
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background: conic-gradient(var(--color) calc(var(--progress) * 1%), var(--track-color) 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  position: relative;
+  padding: var(--thickness); /* Add padding to adjust thickness */
+  box-sizing: border-box; /* Ensure padding affects dimensions */
+}
+
+.progress-circle span {
+  
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border-radius: 50%;
+  width: calc(var(--size) - (var(--thickness) * 2)); /* Inner circle size */
+  height: calc(var(--size) - (var(--thickness) * 2));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Inner circle shadow */
+}
+#section5{
+  
+  min-height: 450px;
+background-color: rgb(212, 212, 212);
+}
+.h1{
+  padding-top: 20px;
+  text-align: center;
+}
+.display-3{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 50px;
+}
+.Awards{
+  text-align: center;
+  font-size: 20px;
+ 
+   text-align: center; 
+  height: 300px;
+  
+}
+.awardstext{
+  align-items: center;
+  text-align: center; 
+}
+.Awards2{
+  
+  text-align: center;
+}
+.award2{
+   text-align: center;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; 
+}
+
+
+.testimonial {
+  padding: 15px;
+  width: 100%;
+  min-height: 250px;
+  background-color: #f5f5f688;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.author {
+  margin-top: 20px;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.author-role {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+.display-5{
+  text-align: center;
+  padding-top: 50px;
+}
+.brand{
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+footer{
+  background-color: black;
+  margin-top: 20px;
+}
+.infoheading{
+  color: #6e6e6e;
+  margin-top: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.infopara{
+  color: #dddddd;
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.box1info{
+  width: 400px;
+}
+.Termbox{
+  width: 390px;
+}
+.contactpara{
+  font-size: 14px;
+  color: #6e6e6e;
+}
+.contactbox2{
+  margin-top: 50px;
+  color:#6e6e6e ;
+  
+}
+.number{
+  font-size: 14px;
+}
+.mail{
+  color: #dddddd;
+}
+.icon{
+  margin-top: 60px;
+}
+.terms{
+color: #6e6e6e;
+ width:550px;
+ margin-top: 30px;
+}
+.copyright{
+  color:#6e6e6e ;
+  margin-top: 30px;
+  width: 500px;
+}
+.powered{
+  color: #6e6e6e;
+  margin-top: 30px;
+  text-align: center;
+}
+
+ 
+
+
